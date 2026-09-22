@@ -1,0 +1,46 @@
+# ============================================================
+# Unreal Engine .gitignore
+# ============================================================
+
+# Compiled / build output
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio / Rider / VSCode
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Project-specific generated files
+*.xcodeproj
+*.xcworkspace
+
+# Claude Code local settings
+.claude/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / crash dumps
+*.log
+*.dmp
+
+# Backup / temp
+*.bak
+*.tmp
+*~
