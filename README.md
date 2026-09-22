@@ -8,6 +8,12 @@
 
 You drive an armed car through five waves of zombies. You pick a special weapon after the first wave, stack power-ups as the run goes on, and try to survive the final boss.
 
+### 🎮 Play the game
+
+**[Download the latest Windows build](https://github.com/Spack050805/ZombieCountyProject/releases/latest)**. Extract the zip and run `ZombieCounty.exe`. No Unreal installation needed.
+
+The packaged build includes the full map and visual effects. The source code in this repo doesn't (see below).
+
 ---
 
 ## About this project
