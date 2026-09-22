@@ -18,7 +18,7 @@ The packaged build includes the full map and visual effects. The source code in 
 
 ## About this project
 
-Zombie County was a personal study project and a challenge to myself: **build a complete game in one week, doing everything myself.** That covers the design, gameplay programming, AI, vehicle physics, weapons, progression and UI.
+Zombie County was a personal study project and a challenge to myself: **build a complete game in one week.** I handled the design and all the programming: gameplay, AI, vehicle physics, weapons, progression and UI logic. The enemy and car 3D models and the UI art were made by **Davide Prestino**.
 
 The only exceptions were the **environment assets used to dress the map** and the **visual effects packs** (explosions, muzzle flashes, particles, toon shader). They come from [Fab](https://www.fab.com) under licenses that don't allow redistribution, so **I removed them from this repository**. The level will open without environment meshes and without VFX, but all gameplay systems are here and work.
 
@@ -161,7 +161,9 @@ Enemies don't use Behavior Trees. Each one is a small **explicit state machine i
 
 ## Credits
 
-- **Design, programming, gameplay, AI, vehicle physics and UI:** me.
+- **Game design and programming (gameplay, AI, vehicle physics, weapons, UI logic):** Leonardo Prestino.
+- **Enemy and car 3D models, UI design:** Davide Prestino.
+- **AI pair programming:** developed with the help of [Claude Code](https://claude.com/claude-code) by Anthropic as a programming assistant.
 - **Map environment assets and VFX packs:** from [Fab](https://www.fab.com). They were used during development and removed from this repository because of their licenses.
 
 If this project helped you learn something, or you reuse part of it, I'd love to hear about it. A mention or a star is always appreciated.
